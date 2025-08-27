@@ -4,6 +4,7 @@
       :multiple="true"
       :options="options"
       :value-consists-of="valueConsistsOf"
+      :allow-single-child="true"
       v-model="value"
       />
     <treeselect-value :value="value" />
@@ -34,14 +35,14 @@
           }, {
             id: 'person-b',
             label: 'Person B 🧔',
+          }, {
+            id: 'person-c',
+            label: 'Person C 👳',
           } ],
         }, {
           id: 'team-ii',
           label: 'Team II 👥',
           children: [ {
-            id: 'person-c',
-            label: 'Person C 👳',
-          }, {
             id: 'person-d',
             label: 'Person D 👧',
           } ],

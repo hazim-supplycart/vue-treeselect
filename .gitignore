@@ -1,5 +1,8 @@
 .DS_Store
 
+.idea
+.vscode
+
 *debug.log*
 *error.log*
 
